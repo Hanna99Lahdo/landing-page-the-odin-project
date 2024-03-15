@@ -95,7 +95,8 @@ ul a {
 
 .image-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 4rem;
     width: 70%;
     padding-bottom: 6rem ;
 
@@ -114,4 +115,23 @@ ul a {
     flex: 0;
     flex-direction: column;
     gap: 1rem;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 10rem 16rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-owner {
+    font-weight: bold;
+    font-size: 28px;
+    align-self: flex-end;
 }
